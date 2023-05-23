@@ -12,7 +12,7 @@ void outputArray(int* array, int size);
 double processArray(int* array, int size);
 void outputResult(double result);
 
-int main()
+int main() //hehe
 {
     setlocale(LC_ALL, "Russian");
 
