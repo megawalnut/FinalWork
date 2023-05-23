@@ -50,6 +50,13 @@ void outputArray(int* array, int size)
 double processArray(int* array, int size)
 {
     double g = 1;
+
+    //eсли число положительное
+    if (g > 0)
+	printf("Число положительное")
+    else
+	printf("Число отрицательное")
+
     for (int il = 0; il < size; il++)
     {
         g = g * (*array);
